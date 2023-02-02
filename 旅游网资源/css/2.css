@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.w{
+    width: 1600px;
+    margin: 0 auto;
+}
+/* 导航模块 */
+header{
+    background-color: rgba(51, 51, 51);
+    height: 85px;
+}
+nav>ul{
+    float: right;
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav>ul>li{
+    width: 130px;
+    float: left;
+    line-height: 85px;
+    font-size: 20px;
+    text-align: center;
+}
+nav>ul>li>a{
+    color: white;
+}
+.center>.logo{
+    float: left;
+    margin: 10px 0;
+}
+nav>ul>li:nth-child(2){
+    background: #000;
+}
+nav>ul>li:hover{
+    background: #000;
+}
+/* 轮播图 */
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .lunbo{
+       
+        height: 600px;
+        position: relative;
+
+      }
+      .lunbo>.zixun{
+        position: absolute;
+        top: 300px;
+        left: 350px;
+        z-index: 100;
+      }
+      .lunbo>.zixun>h1,h3{
+        color: white;
+      }
+      /* 特价模块 */
+      .left{
+        width: 1100px;
+        margin-top: 20px;
+      }
+      .nav_text{
+        background-color: rgb(237,237,237);
+        height: 40px;
+      }
+      .nav_text>ul{
+        float: left;
+        width: 1100px;
+      }
+      .nav_text>ul>li{
+        float: left;
+        line-height: 40px;
+        width: 100px;
+        text-align: center;
+      }
+      .nav_text>ul>.li1{
+        float: right;
+      }
+      .nav_text>ul>li>a{
+        color: #000;
+      }
+      .nav_text>ul>li:first-child{
+        line-height: 37px;
+        background-color: rgb(250,250,250);
+        border-top: 3px solid rgb(2, 129, 29);
+      }
+      .left{
+        display: inline-block;
+      }
+      .left>.pic{
+        height: 230px;
+        position: relative;
+        overflow: hidden;
+        margin: 20px 0;
+      }
+      .left>.pic>.tour{
+        display: inline-block;
+        vertical-align: top;
+      }
+      .pic_mangu{
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .pic_mangu>h1{
+        line-height: 50px;
+      }
+      .pic_mangu>span{
+        margin: 10px 0;
+      }
+      .mangu_s1{
+        color: green;
+        display: inline-block;
+        border: 1px solid green;
+      }
+      
+      .pic_jiaqian{
+        display: inline-block;
+       position: absolute;
+       top: 40px;
+       right: 200px;
+      
+      }
+      .pic_jiaqian>.jiaqian_s1{
+        color: rgb(255,102,0);
+      }
+      .pic_jiaqian>.jiaqian_s2{
+        font-size: 30px;
+        color: rgb(255,102,0);
+        font-weight: bold;
+      }
+      .pic_jiaqian>.jiaqian_s3{
+        color: gray;
+        text-decoration: line-through;
+        font-size: 20px;
+      }
+      .pic_jiaqian>p{
+        line-height: 60px;
+        color: white;
+        font-size: 25px;
+        background-color: rgb(255,102,0);
+        text-align: center;
+      }
+      .pic_footer{
+        width: 720px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgb(237,237,237);
+        line-height: 30px;
+        text-indent: 10px;
+      }
+      .pic_footer>p>span{
+        color: green;
+      }
+      .sanjiao{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgb(255,243,217);
+        color: rgb(255,102,0);
+        transform: rotate(45deg);
+        line-height: 27px;
+        z-index: 2;
+      }
+      .img_sanjiao{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      /* 推荐模块 */
+      .right{
+        width: 474px;
+        float: right;
+        margin: 20px 0;
+      }
+      .view{
+        border: 1px solid grey;
+        
+        
+      }
+      .right  h1{
+        font-size: 25px;
+        line-height: 40px;
+        background-color: rgb(237,237,237);
+        margin-bottom: 5px;
+      }
+      .view>div{
+        display: inline-block;
+        background-color: rgb(237,237,237);
+        margin: 0 5px 5px 0;
+        width: 150px;
+        line-height: 30px;
+      }
+      .view>.jr{
+        margin-left: 5px;
+      }
+      .remeng{
+        border: 1px solid grey;
+        float: right;
+        width: 100%;
+        margin: 20px 0;
+      }
+      
+      .rw_pic{
+        display: inline-block;
+        
+        margin: 0 5px 5px 0;
+      }
+      .rw_pic>img{
+        vertical-align: bottom;
+        width: 224.5px;
+      }
+      .remeng>div:nth-of-type(2n+1){
+        margin-left: 5px;
+      }
+      .rw_pic>p{
+        color: gray;
+      }
+      .gon{
+        clear: both;
+        border: 1px solid grey
+      }
+      
+      .gon>div{
+        background-color: rgb(237,237,237);
+        width: 204.5px;
+        display: inline-block;
+        margin: 0 5px 5px 0;
+        padding-left: 20px;
+      }
+      .gon>div:nth-of-type(2n+1){
+        margin-left: 5px;
+      }
+      .gon>div>span{
+        line-height: 50px;
+      }
+      .gon>div>img{
+        vertical-align: middle;
+      }
+      /* 底部模块 */
+      .footer{
+        width: 100%;
+      }
+      .footer1{
+        height: 260px;
+        background-color: rgb(34, 34, 34);
+        padding-top: 10px;
+    }
+    .footer_he>dl{
+        float: left;
+        width: 447px;
+        text-align: center;
+    
+    }
+    .footer_he>dl>dt{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    .footer_he>dl>dd{
+        line-height: 33px;
+        color: rgb(99, 97, 97);
+    }
+    .footer_he{
+        margin-top: 20px;
+        height: 240px;
+    }
+    .footer2{
+        background: #000;
+        height: 50px;
+    }
+    .footer2>p{
+        text-align: center;
+        color: #fff;
+        line-height: 50px;
+    }
